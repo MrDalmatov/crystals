@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Ogg";
+  src: url(assets/fonts/Ogg-Regular.woff) format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "basis grotesque pro";
+  src: url(assets/fonts/BasisGrotesquePro-Regular.woff2) format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "basis grotesque pro", sans-serif;
+  background-color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Ogg", sans-serif;
+}
+
+.container {
+  max-width: 1358px;
+  margin: 0 auto;
+}
